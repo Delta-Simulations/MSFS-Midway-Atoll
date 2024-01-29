@@ -4,7 +4,7 @@
 	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
 	<PublishingGroupTemporaryOutputDirectory>_PublishingGroupInt</PublishingGroupTemporaryOutputDirectory>
 	<Packages>
-		<Package>PackageDefinitions\deltasim-airport-pmdy-home-base.xml</Package>
+		<Package>PackageDefinitions\deltasimulations-airport-pmdy.xml</Package>
 	</Packages>
 	<PublishingGroups/>
 </Project>
