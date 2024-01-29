@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInfo guid="{b2df41b7-3b77-4387-bc7d-34a71e3fb89a}" version="1.1">
+	<LODS>
+		<LOD minSize="0" ModelFile="DeltaSimHangar.gltf"/>
+	</LODS>
+
+
+    <DefaultState name="HANGAR-anim"/>
+
+    <AnimGraph>
+        <DefaultState name="HANGAR-anim"/>
+        <BlendTreeState name="HANGAR-anim">
+          <Animations>
+            <Animation guid="74171a7a-70fe-4249-a579-3d177b08a072" loop="False" speed="1"/>
+            
+          </Animations>
+        </BlendTreeState>
+    </AnimGraph>
+
+<!-- old legacy code-->
+<Animation guid="74171a7a-70fe-4249-a579-3d177b08a072" length="100" name="SceneryHangar_DoorOpen" type="Sim" typeParam="AutoPlay" typeParam2="SceneryHangar_DoorOpen" />
+    <PartInfo>
+        <Name>SceneryHangar_DoorOpen</Name>
+        <AnimLength>100</AnimLength>
+        <Animation>
+            <Parameter>
+                <Code>
+                (E:LOCAL TIME, Seconds) 28800 &gt; (E:LOCAL TIME, Seconds) 64800 &lt; and if{ 100 } els{ 0 }
+                </Code>
+                <Lag>10</Lag>
+            </Parameter>
+        </Animation>
+    </PartInfo>
+
+
+</ModelInfo>
